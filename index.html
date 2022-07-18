@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sony_alpha</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="script.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--  header 영역 시작-->
+<header> <!-- w100% h90 -->
+	<h1 id="logo"><img src="icons/logo.png" alt=""></h1>
+	<ul id="menu">
+		<li>매거진<div></div></li>
+		<li>프로<div></div>
+			<ul class="sub1">
+				<li>해외 프로작가</li>
+				<li>국내 프로작가</li>
+				<li>프로서포트(SIPS) / 프로 컨설팅</li>
+			</ul>
+		</li>
+		<li>제품정보<div></div>
+			<ul class="sub2">
+				<li>풀프레임</li>
+				<li>APS-C</li>
+				<li>렌즈</li>
+				<li>RX & ZV</li>
+				<li>액세서리</li>
+			</ul>
+		</li>
+		<li>이벤트<div></div>
+			<ul class="sub3">
+				<li>진행중인 이벤트</li>
+				<li>종료된 이벤트</li>
+				<li>당첨자 발표</li>
+			</ul>
+		</li>
+		<li>세미나<div></div>
+			<ul class="sub4">
+				<li>진행중인 세미나</li>
+				<li>종료된 세미나</li>
+				<li>당첨자 발표</li>
+			</ul>
+		</li>
+		<li>아카데미<div></div>
+			<ul class="sub5">
+				<li>아카데미</li>
+				<li>오프라인 아카데미</li>
+				<li>온라인 아카데미</li>
+				<li>아카데미 소개</li>
+			</ul>
+		</li>
+	</ul> 
+	<ul id="icon_menu">
+		<li><img src="icons/header_icon1.png" alt=""></li>
+		<li><img src="icons/header_icon2.png" alt=""></li>
+	</ul>
+</header>   
+
+<!--slide 영역 시작 -->
+	<div id="slide">	<!-- w100% h800 -->		
+			<div id="slide_textbox">
+				<h2>김중만 작가,<br>a1을 만나다</h2>
+				<p>거장 김중만의 작품을 완성하는 플래그십a1 </p>
+				<p>김중만 작가와 만나 탄생한 대자연의 광활함을 감상해 보세요.</p>
+				<button>자세히 보기 </button>
+				<img src="icons/arrow.png" alt="">
+			</div>
+			<ul id="slide_btbox">
+				<li>
+					<h3>01</h3>
+					<h4>김중만 작가,<br>
+						α1을 만나다</h4>
+				</li>
+				<li>
+					<h3>02</h3>
+					<h4>SEL2470GM2<br>
+						디지털 언패킹</h4>
+				</li>
+				<li>
+					<h3>03</h3>
+					<h4>α1 X 알파 프로페셔널<br>
+						그 대장정을 돌아보다</h4>
+				</li>
+			</ul>
+			</div>
+			<div id="slide_btbox1">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</div>
+
+<!--magazine  영역 시작-->
+<div id="magazine"><!-- w100% h1000 -->		
+		<h2>MAGAZINE<span></span></h2>
+		<p>소니 카메라 제품의 새로운 소식과 프로들의 사진 촬영 노하우와 제품 관련 <br> 최신 뉴스를 지금 확인해 보세요!</p>
+		<ul>
+			<li>
+				<div class="magazine_imgbox1"></div>  <!--div에 크기를 주고 이미지는 배경으로깔기 -->
+				<img src="" alt="" class="play_bt">   <!-- 50px 50px 일러스트로 제작하여 png저장 -->
+				<div class="magazine_textbox">
+					<h3>2022.06.15</h3>
+					<h4>[소니코리아]AIpha 1 펌웨어<br>버전 1.3 업데이...></h4>
+					<h5></h5>
+					<h6></h6>
+				</div>
+			</li>
+			<li>
+				<div class="magazine_imgbox2"></div>  <!--div에 크기를 주고 이미지는 배경으로깔기-->
+				<img src="" alt="" class="play_bt">
+				<div class="magazine_textbox">
+					<h3>2022.06.03</h3>
+					<h4 id="ta_h4">[소니코리아] What's in my<br> Camera ba...</h4>
+				</div>
+			</li>
+			<li>
+				<div class="magazine_imgbox3"></div>  <!--div에 크기를 주고 이미지는 배경으로깔기 -->
+				<img src="" alt="" class="play_bt">
+				<div class="magazine_textbox">
+					<h3>2022.06.09</h3>
+					<h4>'2023소니 월드 포토그래피<br>어워드'개최</h4>
+				</div>
+			</li>
+		</ul>
+		<h4 id="ta_h41">더 많은 매거진 보러가기 <span></span></h4>
+</div>
+
+<!--video 영역 시작 -->
+<div id="video"><!-- w100% h1000 -->      
+	<h2>VIDEO CONTENTS<span></span></h2>
+	<p>프로들이 선택한 카메라! <br>소니 카메라와 함께 사진 예술 창작의 더 깊은 세계로 여러분을 초대합니다!</p>
+	<div id="video_box">
+		  <ul id="video_slide">
+			 <li><img src="images/1.jpg" alt=""><img src="video_playbt.png" alt="" class="video_playbt"></li>
+			 <li><img src="images/2.jpg" alt=""><img src="video_playbt.png" alt="" class="video_playbt"></li>
+			 <li><img src="images/5.jpg" alt=""><img src="icons/video_playbt.png" alt="" class="video_playbt"></li>
+			 <li><img src="images/4.jpg" alt=""><img src="video_playbt.png" alt="" class="video_playbt"></li>
+			 <li><img src="images/5.jpg" alt=""><img src="video_playbt.png" alt="" class="video_playbt"></li>
+		  </ul>         
+		  <h6>더 많은 비디오 컨텐츠 보러가기 <span></span></h6>
+		  <div id="video_bt_left"><img src="icons/left.png" alt=""></div>
+		  <div id="video_bt_right"><img src="icons/right.png" alt=""></div>
+	</div>
+	
+ </div>
+
+<!--event_seminar 영역 시작-->
+<div id="event_seminar"> <!-- w100% h1200 -->		
+	<h2>EVENT & SEMINAR<span></span></h2>
+	<p>소니에서 준비한 이벤트로 더 많은 혜택을!<br>
+		세미나를 통해 소니 제품과 함께 하는 프로들의 사진 노하우를 배워보세요!</p>
+	<ul id="event_bt">
+		<li>EVENT<div></div></li>
+		<li>SEMINAR<div></div></li>
+	</ul>   
+	<ul id="event">
+		<li>
+			<img src="images/10.jpg" alt="">
+			<div class="event_textbox">
+				<h3>[사진전] 2023 소니 월드 포토그래피 어워드</h3>
+				<h5>2022.06.01 ~ 2023.01.13</h5>
+			</div>
+		</li>
+		<li>
+			<img src="images/11.jpg" alt="">
+			<div class="event_textbox">
+				<h3>[이벤트] α1 X SEL2470GM2 X 김영철 작가 디지털 갤러리</h3>
+				<h5>2022.05.19 ~ 2022.06.30</h5>
+			</div>
+		</li>
+		<li>
+			<img src="images/12.jpg" alt="">
+			<div class="event_textbox">
+				<h3>[이벤트] 소니 α 풀프레임 카메라 무상 수리 서비스 1+1 연장 프로모션</h3>
+				<h5>2022.01.01 ~ 2022.12.31</h5>
+			</div>
+		</li>
+		<li>
+			<img src="images/13.jpg" alt="">
+			<div class="event_textbox">
+				<h3>[이벤트] Sony PRO Consulting</h3>
+				<h5>2021.10.20 ~ 2022.12.31</h5>
+			</div>
+		</li>
+		<li>
+			<img src="images/14.jpg" alt="">
+			<div class="event_textbox">
+				<h3>[이벤트] 프딩과 함께하는 프로페셔널 웨딩 작가 컨설팅 서비스</h3>
+				<h5>2021.07.08 ~ 2022.09.30</h5>
+			</div>
+		</li>
+		<li>
+			<img src="images/15.jpg" alt="">
+			<div class="event_textbox">
+				<h3>[이벤트] α 랜선 세미나</h3>
+				<h5>2020.08.28 ~ 재고 소진시</h5>
+			</div>
+		</li>
+	</ul>
+	<ul id="event_bt2">
+		<li>이벤트 보러가기 ></li>
+		<li>세미나 보러가기 ></li>
+	</ul>
+</div>
+
+<!-- banner 영역 시작-->
+<div id="banner"><!-- w100% h510 -->	
+		<div id="banner1"> 
+				<div id="banner1_inbox">
+					<h4>원핸드 컴팩트 풀프레임</h4>
+					<h3>α7C</h3>
+					<p>자세히 보기<span></span></p>
+				</div>
+		</div>
+		<div id="banner2">
+				<div id="banner2_inbox">
+					<h4>미래형 렌즈의 완성</h4>
+					<h3>G Master</h3>
+					<p>자세히 보기<span></span></p>
+				</div>
+		</div>
+</div>
+
+<!--support 영역 시작 -->
+<div id="support">  <!-- w100% h566 -->		
+		<h2>SUPPORT<span></span></h2>
+		<p>소니 고객지원에 오신 것을 환영합니다.</p>
+		<ul> 
+			<li>정품등록<img src="icons/Untitled-3.png" alt=""><div id="icon_box1"></div></li>
+			<li>A/S 안내<img src="icons/Untitled-3.png" alt=""><div id="icon_box2"></div></li>
+			<li>제품지원<img src="icons/Untitled-3.png" alt=""><div id="icon_box3"></div></li>
+			<li>구매처 안내<img src="icons/Untitled-8.png" alt=""><div id="icon_box4"></div></li>
+			
+		</ul>
+</div>
+
+
+<!-- footer 영역 시작 -->
+<footer> <!-- w100% h344 -->		
+	<div id="footer_box">
+		<div id="footer_left">
+			<ul id="footer_menu">
+				<li>이용약관<img src="icons/Untitled-9.png" alt=""></li>
+				<li>개인정보처리방침<img src="icons/Untitled-9.png" alt=""></li>
+				<li>상담안내<img src="icons/Untitled-9.png" alt=""></li>
+				<li>사이트맵</li>
+			</ul> 
+			<ul id="footer_info">
+				<li>사업장주소 : 서울특별시 영등포구 국제금융로 10 원아이에프씨 24F</li>
+				<li>사업자등록번호 : 106-81-23810</li>
+				<li>통신판매번호 2012-서울영등포-1038 소니코리아(주)</li>
+				<li>대표이사 : Okura Kikuo<img src="icons/Untitled-9.png" alt=""></li>
+				<li>개인정보관리책임자 : Okura Kikuo</li>
+				<li>TEL : 소니코리아 고객 센터 1588-0911</li>
+				<li>E-MAIL : <span>cshelp@sony.co.kr</span></li>
+			</ul>
+			<p id="footer_copyright">Copyright © Sony Korea Corporation. All rights reserved.</p>
+		</div>
+		<div id="footer_right">
+			<div id="sitebox1">
+				<div id="select1">
+				 <h4>Sony Family 사이트</h4>
+				</div>
+			</div>
+			<div id="sitebox1">
+				<div id="select2">
+					<h4>Sony Global Home 바로가기</h4>
+				</div>
+			</div> 
+			<ul id="footer_icon">
+				<li><img src="icons/fb.png" alt=""></li>
+				<li><img src="icons/in.png" alt=""></li>
+				<li><img src="icons/yb.png" alt=""></li>
+				<li><img src="icons/bl.png" alt=""></li>
+				<li><img src="icons/n.png" alt=""></li>
+				<li><img src="icons/blog.png" alt=""></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<!--  -->
